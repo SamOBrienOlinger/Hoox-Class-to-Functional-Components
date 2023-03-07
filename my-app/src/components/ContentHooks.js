@@ -8,7 +8,12 @@ import React, {useState} from 'react'
 
 
 
-const [name, setName] = useState('');
+
+
+
+
+function ContentHooks() {
+    const [name, setName] = useState('');
     const [category, setCategory] = useState('website');
     const [comments, setComments] = useState('');
     const handleSubmit = (e) => {
@@ -17,10 +22,7 @@ const [name, setName] = useState('');
     const [fetchedPosts, setFetchedPosts] = useState([0]);
     const  [isLoaded, setisLoaded] = useState([0])
     }
-
-
-
-function ContentHooks() {   
+    
     return (
         <div>
             <h2>Please fill out the form below:</h2>
