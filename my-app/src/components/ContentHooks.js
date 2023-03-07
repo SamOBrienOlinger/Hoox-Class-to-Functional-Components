@@ -7,11 +7,6 @@ import css from "./css/Content.module.css";
 import React, {useState} from 'react'
 
 
-
-
-
-
-
 function ContentHooks() {
     const [name, setName] = useState('');
     const [category, setCategory] = useState('website');
@@ -37,7 +32,7 @@ function ContentHooks() {
                     //     id="id-name"
                     //     name="name"
                     //     type="text"
-                    // />
+                    />
                 </div>
                 <div>
                     <label htmlFor="id-category">Query category:</label>
